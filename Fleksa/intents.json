@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hello, how may I help you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "ok bye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank you so much!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "menu-sweets",
+      "patterns": [
+        "Which items do you have in sweets?",
+        "Which sweets are available?",
+        "Sweets"
+      ],
+      "responses": [
+        "We sell cakes and pasteries",
+        "We have cakes and pasteries"
+      ]
+    },
+    {
+      "tag": "menu-snacks",
+      "patterns": [
+        "Which items do you have in snacks?",
+        "Which snacks are available?",
+        "Snacks"
+      ],
+      "responses": [
+        "We sell sandwiches and omelettes",
+        "We have sandwiches and omelettes"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Google Pay?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Google Pay",
+        "We accept most major credit cards, and Google Pay"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 30-40 minutes",
+        "Your order will be delivered in 30-40 minutes"
+      ]
+    }
+  ]
+}
